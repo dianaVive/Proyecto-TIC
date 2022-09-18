@@ -1,6 +1,0 @@
-servlets\PruebaServlet.class
-beans\Usuarios.class
-test\OperacionesBD.class
-beans\Servicios.class
-beans\Agenda.class
-connection\DBConnection.class

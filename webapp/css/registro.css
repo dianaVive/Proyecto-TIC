@@ -1,0 +1,85 @@
+.row{
+    margin-bottom: 90px;
+}
+.cuenta{
+    margin-left: 40px;
+}
+#form-register{
+    margin-bottom: 5px;
+}
+
+
+
+.dropdown-toggle{
+  background-color: #f46b21;
+  background-color: #f46b21;
+  color: #ffffff;
+  border-radius: 40px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: none;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  
+}
+.dropdown-toggle:hover{
+  background-color:#ccc;
+}
+
+
+
+#form-container{
+  border:none;
+}
+
+
+.form-check{
+  
+  width: 200px;
+  text-align:start;
+}
+.form-check input.active {
+    width: 18px;
+    height: 18px;
+    background-color: #f46b21;
+  }
+
+
+.nombre{
+    text-align: center;
+    
+}
+
+.form-control{
+    background-color:bisque;
+    border: none;
+    outline: none;
+}
+input[placeholder]{
+font-family:'Anton', sans-serif;
+font-weight: bold;
+color:#000000;
+
+
+}
+input[type]:focus {
+    box-shadow: 0 0 8px #f46b21;
+
+}
+.registrarse{
+    display: inline-block;
+    padding: 8px 30px;
+    background-color: #f46b21;
+    color: #ffffff;
+    border-radius: 45px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: none;
+    font-weight: bold;
+  }
+

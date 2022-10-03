@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+            <!-- jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+            <!-- Popper JS -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+            <!-- Latest compiled JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
+            <script src="js/index.js"></script>
+            <link href="css/index.css" rel="stylesheet">
+            
+            
+        <!-- mis estilos -->
+        <link href="css/font-awesome.min.css" rel="stylesheet" />
+        <link href="css/responsive.css" rel="stylesheet" />
+        <link href="css/style.css" rel="stylesheet" />
+        <link href="css/registro.css" rel="stylesheet" />
+        
+        
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+            
+            
+            
+            
+            
+        
+        <title>Registro - Renta de peliculas</title>
+    </head>
+    <body>
+     <header class="header_section">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg custom_nav-container ">
+        <a class="navbar-brand" href="index.html">
+          <span>
+            DeVet
+          </span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class=""></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Contacto</a>
+            </li>
+           
+          </ul>
+          <div class="user_option">            
+            <a href="login.html" class="registrase">
+              login
+            </a>
+
+          </div>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+   
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <main class="p-4 d-flex justify-content-center">
+            <div class="card sizeDiv">
+                <div class="card-body">
+                    <form id="form-register" class="pb-4">
+                        <div class="form-group">
+                            <label for="input-username">Nombre de usuario</label>
+                            <input type="text" class="form-control" id="input-username" placeholder="Nombre de usuario" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="input-contrasena">Contraseña</label>
+                                <input type="password" class="form-control" id="input-contrasena" placeholder="Contraseña" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="input-contrasena-repeat">Repetir contraseña</label>
+                                <input type="password" class="form-control" id="input-contrasena-repeat" placeholder="Repetir contraseña" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="input-nombre">Nombre</label>
+                            <input type="text" class="form-control" id="input-nombre" placeholder="Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="input-apellidos">Apellidos</label>
+                            <input type="text" class="form-control" id="input-apellidos" placeholder="Apellidos" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="input-email">Email</label>
+                            <input type="text" class="form-control" id="input-email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="input-saldo">telefono</label>
+                            <input type="number" class="form-control" id="input-telefono" placeholder="telefono" required>
+                        </div>
+                        
+                        
+                        <input type="submit" class="btn btn-primary" id="register-btn" value="Registrar usuario" />
+                    </form>
+                    <div id="register-error" class="alert alert-danger d-none" role="alert"></div>
+                    <a href="index.html">¿Ya tienes cuenta? Iniciar sesión</a>
+                </div>
+            </div> 
+        </main>
+        
+    <footer class="footer_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 footer-col">
+                        <div class="footer_contact">
+                            <h4>
+                                Contactanos
+                            </h4>
+                            <div class="contact_link_box">
+                                <a href="">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <span>
+                                        Cali, Colombia
+                                    </span>
+                                </a>
+                                <a href="">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <span>
+                                        Call +57 1234567890
+                                    </span>
+                                </a>
+                                <a href="">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <span>
+                                        DeVet@gmail.com
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 footer-col">
+                        <div class="footer_detail">
+                            <a href="" class="footer-logo">
+                                Devet
+                            </a>
+                            <p>
+                                Queremos que tengas más momentos peludos y en DeVEt encuentras todo para tu mascota a domicilio.
+
+                            </p>
+                            <div class="footer_social">
+                                <a href="">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa fa-pinterest" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 footer-col">
+                        <h4>
+                            Horario de Atencion
+                        </h4>
+                        <p>
+                            Lunes-Domingo
+
+                        </p>
+                        <p>
+                            10.00 Am -10.00 Pm
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <p>
+                        &copy; <span id="displayYear"></span> All Rights Reserved By
+                        <a href="https://html.design/">Free Html Templates</a><br><br>
+                        &copy; <span id="displayYear"></span> Distributed By
+                        <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
+                    </p>
+                </div>
+            </div>
+        </footer>   
+        
+        
+    </body>
+</html>
